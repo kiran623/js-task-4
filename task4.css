@@ -1,0 +1,139 @@
+.textOne{
+    font-size: 23px;
+    color: #494949;
+}
+
+.toggleOne {
+    margin-left:500px;
+    margin-top:100px;
+    position: relative;
+    width: 130px;
+    height: 60px;
+    border: 2px solid gainsboro;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    background-color:gainsboro;
+}
+.circleOne {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 45px;
+    border-radius: 20px;
+
+    transition: .3s;
+  }
+
+.active {
+    border-color: skyblue;
+}
+
+
+
+.active .circleOne {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: skyblue;
+
+
+}
+
+
+
+
+.textTwo{
+    font-size: 23px;
+    color: #494949;
+}
+
+.toggleTwo {
+    margin-left:500px;
+    margin-top:100px;
+    position: relative;
+    width: 130px;
+    height: 60px;
+    border: 2px solid gainsboro;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    background-color:gainsboro;
+}
+.circleTwo {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 45px;
+    border-radius: 20px;
+
+    transition: .3s;
+  }
+
+.active {
+    border-color: skyblue;
+}
+
+
+
+.active .circleTwo {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: skyblue;
+
+
+}
+
+
+
+.textThree{
+    font-size: 23px;
+    color: #494949;
+}
+
+.toggleThree {
+    margin-left:500px;
+    margin-top:100px;
+    position: relative;
+    width: 130px;
+    height: 60px;
+    border: 2px solid gainsboro;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .3s;
+    background-color:gainsboro;
+}
+.circleThree {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    height: 45px;
+    border-radius: 20px;
+
+    transition: .3s;
+  }
+
+.active {
+    border-color: skyblue;
+}
+
+
+
+.active .circleThree {
+    left: 100%;
+    transform: translateX(-100%);
+    transition: .3s;
+    background-color: skyblue;
+
+
+}
